@@ -12,7 +12,7 @@ export default defineConfig({
 		},
 		
 		rollupOptions: {
-			external: ['electron', ...builtinModules.map((m) => [m, `node:${m}`]).flat()],
+			external: ['electron','node-pty', ...builtinModules.map((m) => [m, `node:${m}`]).flat()],
 		},
 	},
 	plugins: [],
