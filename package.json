@@ -1,8 +1,8 @@
 {
-	"name": "my-new-app",
-	"productName": "my-new-app",
+	"name": "normal",
+	"productName": "normal",
 	"version": "1.0.0",
-	"description": "My Electron application description",
+	"description": "GUI for R programming language",
 	"main": ".vite/main/main.js",
 	"type": "module",
 	"scripts": {
