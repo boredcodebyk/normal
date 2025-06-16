@@ -64,7 +64,7 @@
 		"@xterm/xterm": "^5.5.0",
 		"electron-squirrel-startup": "^1.0.1",
 		"mode-watcher": "^1.0.8",
-		"node-pty": "^1.0.0",
+		"node-pty": "1.1.0-beta34",
 		"phosphor-svelte": "^3.0.1"
 	},
 	"pnpm": {
