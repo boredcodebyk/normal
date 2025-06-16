@@ -14,4 +14,7 @@ export default defineConfig({
 		sveltekit(),
 	],
 	clearScreen: false,
+	optimizeDeps:{
+		exclude: ['electron-squirrel-startup']
+	}
 });
